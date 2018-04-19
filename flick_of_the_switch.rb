@@ -1,12 +1,4 @@
-def toggle(switch_count, pairs)
-  switches = Array.new(switch_count, 0)
-
-  pairs.each do |pair|
-    pair.min.upto(pair.max) { |i| switches[i] ^= 1 }
-  end
-
-  switches
-end
+require "./challenge_methods"
 
 if ENV["RUBY_ENV"] != "test"
   switch_count = ARGF.gets.to_i
