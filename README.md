@@ -4,13 +4,16 @@ I had weirder files names originally, but wanted to make sure things were easy
 enough to run. I don't normally get funky with naming, but this is play so I
 can.
 
+I chose not to put any of these methods into classes or modules. I tend toward
+doing "...the simplest thing that can possibly work." In this case, it was just
+dropping methods into a file.
+
 # Challenge 1 – Change Making Problem
 
-This was the first challenge, and I was looking for a quick win to get me into
-a good frame of mind. Nothing fancy here, just a hash and an if statement. I
-could have used an iterator, but the likelihood of using smaller numbers let me
-believe that recursion would work just as well, and it was easier to reason
-about.
+Being the first challenge, I was looking for a quick win to get me into a good
+frame of mind. Nothing fancy here, just a hash and an if statement. I could have
+used an iterator, but the likelihood of using smaller numbers let me believe
+that recursion would work just as well, and it was easier to reason about.
 
 Wasn't sure from the specs if it was supposed to take multiple lines of change
 or not. It seemed odd to want that, so I opted for only accepting single
@@ -31,7 +34,7 @@ ruby challenge1.rb 0.87
 
 # Challenge 2 – Text Reflow
 
-I had plans on writing this recursively as well, but I had a sneaking suspicion
+I planned to write this recursively as well, but I had a sneaking suspicion
 that I could get away with a regex instead. If it hadn't worked, I could have
 created another recursive method to chop up the incoming text. Neither the regex
 nor this latter case would be useful for large text files (memory hogs). In
@@ -56,8 +59,8 @@ Lorem ipsum dolor sit amet, ullum phaedrum in est, sit viris dissentiunt eu. Ad 
 # Challenge 3 – Light Switches
 
 Not much to say about the third challenge. I used the XOR bitwise operator to
-toggle the switches on and off. Never had to use that before, so that was fun to
-get to play with
+toggle the switches on and off. Never had the opportunity to use it, so that was
+fun to get to play with
 
 This challenge is similar to the second challenge in how it can take data.
 
