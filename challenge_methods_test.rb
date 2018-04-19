@@ -1,5 +1,5 @@
 require "minitest/autorun"
-load "hope_and_change.rb"
+require "./challenge_methods"
 
 describe "hope and change" do
   describe "#chanchanchange" do
@@ -19,6 +19,5 @@ describe "hope and change" do
       results[:nickles].must_equal 10
       results[:pennies].must_equal 12
     end
-
   end
 end
