@@ -53,7 +53,7 @@ Lorem ipsum dolor sit amet, ullum phaedrum in est, sit viris dissentiunt eu. Ad 
 ^D
 ```
 
-# Challenge 3
+# Challenge 3 – Light Switches
 
 Not much to say about the third challenge. I used the XOR bitwise operator to
 toggle the switches on and off. Never had to use that before, so that was fun to
