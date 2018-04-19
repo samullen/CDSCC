@@ -2,11 +2,14 @@
 
 ## Description:
 
-Assuming an infinite supply of coins (1, 5, 10, 25 cent denominations), programmatically make change for N amount using the least amount of coins possible.
+Assuming an infinite supply of coins (1, 5, 10, 25 cent denominations),
+programmatically make change for N amount using the least amount of coins
+possible.
 
 ## Input:
 
-You will be given two decimal values each representing total N cents to make change for.
+You will be given two decimal values each representing total N cents to make
+change for.
 
 ## Example:
 
@@ -48,10 +51,10 @@ lectus aliquam volutpat ultricies.
 
 ## Challenge Input:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum
 ectus aliquam volutpat ultricies. Ut quis augue quis mauris semper varius et ut
 faucibus orci luctus et ultrices posuere cubilia Curae;
-Praesent porttitor tristique faucibus. Curabitur commodo augue vitae lacus 
+Praesent porttitor tristique faucibus. Curabitur commodo augue vitae lacus
 viverra maximus. Vestibulum ante "ipsum primis" in faucibus orci luctus et
 ultrices posuere cubilia Curae; Curabitur eleifend at lacus ac mollis.
 
