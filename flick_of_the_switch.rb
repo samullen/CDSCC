@@ -8,7 +8,6 @@ def toggle(switch_count, pairs)
   switches
 end
 
-p ENV["RUBY_ENV"]
 if ENV["RUBY_ENV"] != "test"
   switch_count = ARGF.gets.to_i
   pairs = []
